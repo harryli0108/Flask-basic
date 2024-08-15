@@ -35,6 +35,6 @@ jobs:
           registryUrl: aactiondebugregistry.azurecr.io
           registryUsername: ${{ secrets.NOSTACKDEBUGAPP_REGISTRY_USERNAME }}
           registryPassword: ${{ secrets.NOSTACKDEBUGAPP_REGISTRY_PASSWORD }}
-          containerAppName: no-stack-debug-app
+          containerAppName: java-test-app
           resourceGroup: ca-harrli-group
           imageToBuild: test-img/java-stack-debug:${{ github.sha }}
